@@ -1,0 +1,970 @@
+@prefix sparqlycode: <http://www.interition.net/sparqlycode/id/> .
+
+<http://www.interition.net/sparqlycode/id/net/interition/sparqlycode/ahkbp/ProxyPath/processRemoteUrl#28>
+        a       <http://ontology.interition.net/java/ref/Method> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "processRemoteUrl" ;
+        <http://ontology.interition.net/java/ref/access>
+                "Private" ;
+        <http://ontology.interition.net/java/ref/argument>
+                [ <http://www.w3.org/2000/01/rdf-schema#label>
+                          "vhost" ;
+                  <http://ontology.interition.net/java/ref/type>
+                          <http://www.interition.net/sparqlycode/id/net/interition/sparqlycode/ahkbp/VirtualHost>
+                ] ;
+        <http://ontology.interition.net/java/ref/lineNumber>
+                "28"^^<http://www.w3.org/2001/XMLSchema#int> ;
+        <http://ontology.interition.net/java/ref/returns>
+                [ <http://ontology.interition.net/java/ref/type>
+                          sparqlycode:void ] .
+
+<http://www.interition.net/sparqlycode/id/net/interition/sparqlycode/ahkbp/Redirect/getNewUrl#45>
+        a       <http://ontology.interition.net/java/ref/Method> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "getNewUrl" ;
+        <http://ontology.interition.net/java/ref/access>
+                "Public" ;
+        <http://ontology.interition.net/java/ref/lineNumber>
+                "45"^^<http://www.w3.org/2001/XMLSchema#int> ;
+        <http://ontology.interition.net/java/ref/returns>
+                [ <http://ontology.interition.net/java/ref/type>
+                          <http://www.interition.net/sparqlycode/id/java/lang/String> ] .
+
+<http://www.interition.net/sparqlycode/id/net/interition/sparqlycode/ahkbp/VirtualHost/add#29>
+        a       <http://ontology.interition.net/java/ref/Method> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "add" ;
+        <http://ontology.interition.net/java/ref/access>
+                "Public" ;
+        <http://ontology.interition.net/java/ref/argument>
+                [ <http://www.w3.org/2000/01/rdf-schema#label>
+                          "proxyPath" ;
+                  <http://ontology.interition.net/java/ref/type>
+                          <http://www.interition.net/sparqlycode/id/net/interition/sparqlycode/ahkbp/ProxyPath>
+                ] ;
+        <http://ontology.interition.net/java/ref/lineNumber>
+                "29"^^<http://www.w3.org/2001/XMLSchema#int> ;
+        <http://ontology.interition.net/java/ref/returns>
+                [ <http://ontology.interition.net/java/ref/type>
+                          sparqlycode:void ] .
+
+<http://www.interition.net/sparqlycode/id/net/interition/sparqlycode/ahkbp/VirtualHost/redirects#9>
+        a       <http://ontology.interition.net/java/ref/Field> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "redirects" ;
+        <http://ontology.interition.net/java/ref/access>
+                "Private" ;
+        <http://ontology.interition.net/java/ref/lineNumber>
+                "9"^^<http://www.w3.org/2001/XMLSchema#int> ;
+        <http://ontology.interition.net/java/ref/type>
+                <http://www.interition.net/sparqlycode/id/java/util/List> ;
+        <http://ontology.interition.net/java/ref/typeParameter>
+                [ <http://ontology.interition.net/java/ref/argument>
+                          [ <http://www.w3.org/2000/01/rdf-schema#label>
+                                    "Redirect" ;
+                            <http://ontology.interition.net/java/ref/argument>
+                                    <http://www.interition.net/sparqlycode/id/net/interition/sparqlycode/ahkbp/Redirect>
+                          ] ] .
+
+<http://www.interition.net/sparqlycode/id/net/interition/sparqlycode/ahkbp/DirectiveEnum#3>
+        a       <http://ontology.interition.net/java/ref/Constructor> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "DirectiveEnum" ;
+        <http://ontology.interition.net/java/ref/access>
+                "Private" ;
+        <http://ontology.interition.net/java/ref/lineNumber>
+                "3"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://www.interition.net/sparqlycode/id/net/interition/sparqlycode/ahkbp/VirtualHost#12>
+        a       <http://ontology.interition.net/java/ref/Constructor> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "VirtualHost" ;
+        <http://ontology.interition.net/java/ref/access>
+                "Public" ;
+        <http://ontology.interition.net/java/ref/argument>
+                [ <http://www.w3.org/2000/01/rdf-schema#label>
+                          "port" ;
+                  <http://ontology.interition.net/java/ref/type>
+                          <http://www.interition.net/sparqlycode/id/java/lang/String>
+                ] ;
+        <http://ontology.interition.net/java/ref/lineNumber>
+                "12"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://www.interition.net/sparqlycode/id/net/interition/sparqlycode/ahkbp/ApacheHttpKBPublisher/constructVirtualHost#71>
+        a       <http://ontology.interition.net/java/ref/Method> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "constructVirtualHost" ;
+        <http://ontology.interition.net/java/ref/access>
+                "Private" ;
+        <http://ontology.interition.net/java/ref/argument>
+                [ <http://www.w3.org/2000/01/rdf-schema#label>
+                          "vhost" ;
+                  <http://ontology.interition.net/java/ref/type>
+                          <http://www.interition.net/sparqlycode/id/net/interition/sparqlycode/ahkbp/VirtualHost>
+                ] ;
+        <http://ontology.interition.net/java/ref/argument>
+                [ <http://ontology.interition.net/java/ref/type>
+                          <http://www.interition.net/sparqlycode/id/java/util/List> ;
+                  <http://ontology.interition.net/java/ref/typeParameter>
+                          [ <http://ontology.interition.net/java/ref/argument>
+                                    [ <http://www.w3.org/2000/01/rdf-schema#label>
+                                              "ConfigNode" ;
+                                      <http://ontology.interition.net/java/ref/argument>
+                                              <http://www.interition.net/sparqlycode/id/com/stackify/apache/ConfigNode>
+                                    ] ]
+                ] ;
+        <http://ontology.interition.net/java/ref/hasAnnotation>
+                <http://www.interition.net/sparqlycode/id/java/lang/SuppressWarnings> ;
+        <http://ontology.interition.net/java/ref/lineNumber>
+                "71"^^<http://www.w3.org/2001/XMLSchema#int> ;
+        <http://ontology.interition.net/java/ref/returns>
+                [ <http://ontology.interition.net/java/ref/type>
+                          sparqlycode:void ] ;
+        <http://ontology.interition.net/java/ref/throws>
+                <http://www.interition.net/sparqlycode/id/net/interition/sparqlycode/ahkbp/UnexpectedContentException> .
+
+<http://www.interition.net/sparqlycode/id/net/interition/sparqlycode/ahkbp/ProxyPath#19>
+        a       <http://ontology.interition.net/java/ref/Constructor> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "ProxyPath" ;
+        <http://ontology.interition.net/java/ref/access>
+                "Public" ;
+        <http://ontology.interition.net/java/ref/argument>
+                [ <http://www.w3.org/2000/01/rdf-schema#label>
+                          "content" ;
+                  <http://ontology.interition.net/java/ref/type>
+                          <http://www.interition.net/sparqlycode/id/java/lang/String>
+                ] ;
+        <http://ontology.interition.net/java/ref/argument>
+                [ <http://www.w3.org/2000/01/rdf-schema#label>
+                          "vhost" ;
+                  <http://ontology.interition.net/java/ref/type>
+                          <http://www.interition.net/sparqlycode/id/net/interition/sparqlycode/ahkbp/VirtualHost>
+                ] ;
+        <http://ontology.interition.net/java/ref/lineNumber>
+                "19"^^<http://www.w3.org/2001/XMLSchema#int> ;
+        <http://ontology.interition.net/java/ref/throws>
+                <http://www.interition.net/sparqlycode/id/net/interition/sparqlycode/ahkbp/UnexpectedContentException> .
+
+<http://www.interition.net/sparqlycode/id/net/interition/sparqlycode/ahkbp/VirtualHost/port#7>
+        a       <http://ontology.interition.net/java/ref/Field> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "port" ;
+        <http://ontology.interition.net/java/ref/access>
+                "Private" ;
+        <http://ontology.interition.net/java/ref/lineNumber>
+                "7"^^<http://www.w3.org/2001/XMLSchema#int> ;
+        <http://ontology.interition.net/java/ref/type>
+                <http://www.interition.net/sparqlycode/id/java/lang/String> .
+
+<http://www.interition.net/sparqlycode/id/net/interition/sparqlycode/ahkbp/Redirect/getOldUrl#41>
+        a       <http://ontology.interition.net/java/ref/Method> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "getOldUrl" ;
+        <http://ontology.interition.net/java/ref/access>
+                "Public" ;
+        <http://ontology.interition.net/java/ref/lineNumber>
+                "41"^^<http://www.w3.org/2001/XMLSchema#int> ;
+        <http://ontology.interition.net/java/ref/returns>
+                [ <http://ontology.interition.net/java/ref/type>
+                          <http://www.interition.net/sparqlycode/id/java/lang/String> ] .
+
+<http://www.interition.net/sparqlycode/id/net/interition/sparqlycode/ahkbp/VirtualHost/setServerName#37>
+        a       <http://ontology.interition.net/java/ref/Method> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "setServerName" ;
+        <http://ontology.interition.net/java/ref/access>
+                "Public" ;
+        <http://ontology.interition.net/java/ref/argument>
+                [ <http://www.w3.org/2000/01/rdf-schema#label>
+                          "serverName" ;
+                  <http://ontology.interition.net/java/ref/type>
+                          <http://www.interition.net/sparqlycode/id/java/lang/String>
+                ] ;
+        <http://ontology.interition.net/java/ref/lineNumber>
+                "37"^^<http://www.w3.org/2001/XMLSchema#int> ;
+        <http://ontology.interition.net/java/ref/returns>
+                [ <http://ontology.interition.net/java/ref/type>
+                          sparqlycode:void ] .
+
+<http://www.interition.net/sparqlycode/id/net/interition/sparqlycode/ahkbp/RDFServices>
+        a       <http://ontology.interition.net/java/ref/Class> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "RDFServices" ;
+        <http://ontology.interition.net/java/ref/access>
+                "Public" ;
+        <http://ontology.interition.net/java/ref/constructor>
+                <http://www.interition.net/sparqlycode/id/net/interition/sparqlycode/ahkbp/RDFServices#17> ;
+        <http://ontology.interition.net/java/ref/extends>
+                <http://www.interition.net/sparqlycode/id/java/lang/Object> ;
+        <http://ontology.interition.net/java/ref/field>
+                <http://www.interition.net/sparqlycode/id/net/interition/sparqlycode/ahkbp/RDFServices/logger#19> , <http://www.interition.net/sparqlycode/id/net/interition/sparqlycode/ahkbp/RDFServices/model#22> , <http://www.interition.net/sparqlycode/id/net/interition/sparqlycode/ahkbp/RDFServices/prefix#24> ;
+        <http://ontology.interition.net/java/ref/imports>
+                <http://www.interition.net/sparqlycode/id/java/lang> ;
+        <http://ontology.interition.net/java/ref/isAbstract>
+                true ;
+        <http://ontology.interition.net/java/ref/lineNumber>
+                "17"^^<http://www.w3.org/2001/XMLSchema#int> ;
+        <http://ontology.interition.net/java/ref/method>
+                <http://www.interition.net/sparqlycode/id/net/interition/sparqlycode/ahkbp/RDFServices/writeRdf#33> , <http://www.interition.net/sparqlycode/id/net/interition/sparqlycode/ahkbp/RDFServices/buildPrefix#57> ;
+        <http://ontology.interition.net/java/ref/package>
+                "net.interition.sparqlycode.ahkbp" ;
+        <http://ontology.interition.net/sparqlycode/vocabulary/file>
+                <file://www.interition.net/sparqlycode/id/net/interition/sparqlycode/ahkbp/RDFServices.java> .
+
+<http://www.interition.net/sparqlycode/id/net/interition/sparqlycode/ahkbp/DirectiveEnum/getDirective#6>
+        a       <http://ontology.interition.net/java/ref/Method> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "getDirective" ;
+        <http://ontology.interition.net/java/ref/access>
+                "Public" ;
+        <http://ontology.interition.net/java/ref/argument>
+                [ <http://www.w3.org/2000/01/rdf-schema#label>
+                          "directive" ;
+                  <http://ontology.interition.net/java/ref/type>
+                          <http://www.interition.net/sparqlycode/id/java/lang/String>
+                ] ;
+        <http://ontology.interition.net/java/ref/isStatic>
+                true ;
+        <http://ontology.interition.net/java/ref/lineNumber>
+                "6"^^<http://www.w3.org/2001/XMLSchema#int> ;
+        <http://ontology.interition.net/java/ref/returns>
+                [ <http://ontology.interition.net/java/ref/type>
+                          <http://www.interition.net/sparqlycode/id/net/interition/sparqlycode/ahkbp/DirectiveEnum> ] .
+
+<http://www.interition.net/sparqlycode/id/net/interition/sparqlycode/ahkbp/ProxyPath>
+        a       <http://ontology.interition.net/java/ref/Class> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "ProxyPath" ;
+        <http://ontology.interition.net/java/ref/access>
+                "Public" ;
+        <http://ontology.interition.net/java/ref/constructor>
+                <http://www.interition.net/sparqlycode/id/net/interition/sparqlycode/ahkbp/ProxyPath#19> ;
+        <http://ontology.interition.net/java/ref/extends>
+                <http://www.interition.net/sparqlycode/id/java/lang/Object> ;
+        <http://ontology.interition.net/java/ref/field>
+                <http://www.interition.net/sparqlycode/id/net/interition/sparqlycode/ahkbp/ProxyPath/path#15> , <http://www.interition.net/sparqlycode/id/net/interition/sparqlycode/ahkbp/ProxyPath/remoteUrl#17> , <http://www.interition.net/sparqlycode/id/net/interition/sparqlycode/ahkbp/ProxyPath/localUrl#16> ;
+        <http://ontology.interition.net/java/ref/imports>
+                <http://www.interition.net/sparqlycode/id/java/lang> ;
+        <http://ontology.interition.net/java/ref/isFinal>
+                true ;
+        <http://ontology.interition.net/java/ref/lineNumber>
+                "13"^^<http://www.w3.org/2001/XMLSchema#int> ;
+        <http://ontology.interition.net/java/ref/method>
+                <http://www.interition.net/sparqlycode/id/net/interition/sparqlycode/ahkbp/ProxyPath/getPath#59> , <http://www.interition.net/sparqlycode/id/net/interition/sparqlycode/ahkbp/ProxyPath/getLocalUrl#55> , <http://www.interition.net/sparqlycode/id/net/interition/sparqlycode/ahkbp/ProxyPath/processContent#40> , <http://www.interition.net/sparqlycode/id/net/interition/sparqlycode/ahkbp/ProxyPath/processRemoteUrl#28> , <http://www.interition.net/sparqlycode/id/net/interition/sparqlycode/ahkbp/ProxyPath/getRemoteUrl#63> ;
+        <http://ontology.interition.net/java/ref/package>
+                "net.interition.sparqlycode.ahkbp" ;
+        <http://ontology.interition.net/sparqlycode/vocabulary/file>
+                <file://www.interition.net/sparqlycode/id/net/interition/sparqlycode/ahkbp/ProxyPath.java> .
+
+<http://www.interition.net/sparqlycode/id/net/interition/sparqlycode/ahkbp/ApacheHttpKBPublisher/publishHttpKb#29>
+        a       <http://ontology.interition.net/java/ref/Method> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "publishHttpKb" ;
+        <http://ontology.interition.net/java/ref/access>
+                "Private" ;
+        <http://ontology.interition.net/java/ref/lineNumber>
+                "29"^^<http://www.w3.org/2001/XMLSchema#int> ;
+        <http://ontology.interition.net/java/ref/returns>
+                [ <http://ontology.interition.net/java/ref/type>
+                          sparqlycode:void ] ;
+        <http://ontology.interition.net/java/ref/throws>
+                <http://www.interition.net/sparqlycode/id/java/io/IOException> , <http://www.interition.net/sparqlycode/id/net/interition/sparqlycode/ahkbp/UnexpectedContentException> .
+
+<http://www.interition.net/sparqlycode/id/net/interition/sparqlycode/ahkbp/Redirect/oldUrl#13>
+        a       <http://ontology.interition.net/java/ref/Field> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "oldUrl" ;
+        <http://ontology.interition.net/java/ref/access>
+                "Private" ;
+        <http://ontology.interition.net/java/ref/lineNumber>
+                "13"^^<http://www.w3.org/2001/XMLSchema#int> ;
+        <http://ontology.interition.net/java/ref/type>
+                <http://www.interition.net/sparqlycode/id/java/lang/String> .
+
+<http://www.interition.net/sparqlycode/id/net/interition/sparqlycode/ahkbp/UriHelper/getUrlScheme#5>
+        a       <http://ontology.interition.net/java/ref/Method> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "getUrlScheme" ;
+        <http://ontology.interition.net/java/ref/access>
+                "Public" ;
+        <http://ontology.interition.net/java/ref/argument>
+                [ <http://www.w3.org/2000/01/rdf-schema#label>
+                          "vhost" ;
+                  <http://ontology.interition.net/java/ref/type>
+                          <http://www.interition.net/sparqlycode/id/net/interition/sparqlycode/ahkbp/VirtualHost>
+                ] ;
+        <http://ontology.interition.net/java/ref/isStatic>
+                true ;
+        <http://ontology.interition.net/java/ref/lineNumber>
+                "5"^^<http://www.w3.org/2001/XMLSchema#int> ;
+        <http://ontology.interition.net/java/ref/returns>
+                [ <http://ontology.interition.net/java/ref/type>
+                          <http://www.interition.net/sparqlycode/id/java/lang/String> ] .
+
+<http://www.interition.net/sparqlycode/id/net/interition/sparqlycode/ahkbp/Redirect#16>
+        a       <http://ontology.interition.net/java/ref/Constructor> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Redirect" ;
+        <http://ontology.interition.net/java/ref/access>
+                "Public" ;
+        <http://ontology.interition.net/java/ref/argument>
+                [ <http://www.w3.org/2000/01/rdf-schema#label>
+                          "content" ;
+                  <http://ontology.interition.net/java/ref/type>
+                          <http://www.interition.net/sparqlycode/id/java/lang/String>
+                ] ;
+        <http://ontology.interition.net/java/ref/lineNumber>
+                "16"^^<http://www.w3.org/2001/XMLSchema#int> ;
+        <http://ontology.interition.net/java/ref/throws>
+                <http://www.interition.net/sparqlycode/id/net/interition/sparqlycode/ahkbp/UnexpectedContentException> .
+
+<http://www.interition.net/sparqlycode/id/net/interition/sparqlycode/ahkbp/RDFServices/logger#19>
+        a       <http://ontology.interition.net/java/ref/Field> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "logger" ;
+        <http://ontology.interition.net/java/ref/access>
+                "Private" ;
+        <http://ontology.interition.net/java/ref/isFinal>
+                true ;
+        <http://ontology.interition.net/java/ref/lineNumber>
+                "19"^^<http://www.w3.org/2001/XMLSchema#int> ;
+        <http://ontology.interition.net/java/ref/type>
+                <http://www.interition.net/sparqlycode/id/org/apache/commons/logging/Log> .
+
+<http://www.interition.net/sparqlycode/id/net/interition/sparqlycode/ahkbp/ProxyPath/path#15>
+        a       <http://ontology.interition.net/java/ref/Field> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "path" ;
+        <http://ontology.interition.net/java/ref/access>
+                "Private" ;
+        <http://ontology.interition.net/java/ref/lineNumber>
+                "15"^^<http://www.w3.org/2001/XMLSchema#int> ;
+        <http://ontology.interition.net/java/ref/type>
+                <http://www.interition.net/sparqlycode/id/java/lang/String> .
+
+<http://www.interition.net/sparqlycode/id/net/interition/sparqlycode/ahkbp/UnexpectedContentException#10>
+        a       <http://ontology.interition.net/java/ref/Constructor> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "UnexpectedContentException" ;
+        <http://ontology.interition.net/java/ref/access>
+                "Public" ;
+        <http://ontology.interition.net/java/ref/argument>
+                [ <http://www.w3.org/2000/01/rdf-schema#label>
+                          "message" ;
+                  <http://ontology.interition.net/java/ref/type>
+                          <http://www.interition.net/sparqlycode/id/java/lang/String>
+                ] ;
+        <http://ontology.interition.net/java/ref/lineNumber>
+                "10"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://www.interition.net/sparqlycode/id/net/interition/sparqlycode/ahkbp/DirectiveEnum/valueOf#3>
+        a       <http://ontology.interition.net/java/ref/Method> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "valueOf" ;
+        <http://ontology.interition.net/java/ref/access>
+                "Public" ;
+        <http://ontology.interition.net/java/ref/argument>
+                [ <http://www.w3.org/2000/01/rdf-schema#label>
+                          "name" ;
+                  <http://ontology.interition.net/java/ref/type>
+                          <http://www.interition.net/sparqlycode/id/java/lang/String>
+                ] ;
+        <http://ontology.interition.net/java/ref/isStatic>
+                true ;
+        <http://ontology.interition.net/java/ref/lineNumber>
+                "3"^^<http://www.w3.org/2001/XMLSchema#int> ;
+        <http://ontology.interition.net/java/ref/returns>
+                [ <http://ontology.interition.net/java/ref/type>
+                          <http://www.interition.net/sparqlycode/id/net/interition/sparqlycode/ahkbp/DirectiveEnum> ] .
+
+<http://www.interition.net/sparqlycode/id/net/interition/sparqlycode/ahkbp/ApacheHttpKBPublisher/main#22>
+        a       <http://ontology.interition.net/java/ref/Method> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "main" ;
+        <http://ontology.interition.net/java/ref/access>
+                "Public" ;
+        <http://ontology.interition.net/java/ref/argument>
+                [ <http://www.w3.org/2000/01/rdf-schema#label>
+                          "args" ;
+                  <http://ontology.interition.net/java/ref/dimension>
+                          "1"^^<http://www.w3.org/2001/XMLSchema#int> ;
+                  <http://ontology.interition.net/java/ref/type>
+                          <http://www.interition.net/sparqlycode/id/java/lang/String>
+                ] ;
+        <http://ontology.interition.net/java/ref/isStatic>
+                true ;
+        <http://ontology.interition.net/java/ref/lineNumber>
+                "22"^^<http://www.w3.org/2001/XMLSchema#int> ;
+        <http://ontology.interition.net/java/ref/returns>
+                [ <http://ontology.interition.net/java/ref/type>
+                          sparqlycode:void ] ;
+        <http://ontology.interition.net/java/ref/throws>
+                <http://www.interition.net/sparqlycode/id/java/lang/Exception> .
+
+<http://www.interition.net/sparqlycode/id/net/interition/sparqlycode/ahkbp/UriHelper>
+        a       <http://ontology.interition.net/java/ref/Class> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "UriHelper" ;
+        <http://ontology.interition.net/java/ref/access>
+                "Public" ;
+        <http://ontology.interition.net/java/ref/constructor>
+                <http://www.interition.net/sparqlycode/id/net/interition/sparqlycode/ahkbp/UriHelper#3> ;
+        <http://ontology.interition.net/java/ref/extends>
+                <http://www.interition.net/sparqlycode/id/java/lang/Object> ;
+        <http://ontology.interition.net/java/ref/imports>
+                <http://www.interition.net/sparqlycode/id/java/lang> ;
+        <http://ontology.interition.net/java/ref/isFinal>
+                true ;
+        <http://ontology.interition.net/java/ref/lineNumber>
+                "3"^^<http://www.w3.org/2001/XMLSchema#int> ;
+        <http://ontology.interition.net/java/ref/method>
+                <http://www.interition.net/sparqlycode/id/net/interition/sparqlycode/ahkbp/UriHelper/getPort#21> , <http://www.interition.net/sparqlycode/id/net/interition/sparqlycode/ahkbp/UriHelper/getUrlScheme#5> ;
+        <http://ontology.interition.net/java/ref/package>
+                "net.interition.sparqlycode.ahkbp" ;
+        <http://ontology.interition.net/sparqlycode/vocabulary/file>
+                <file://www.interition.net/sparqlycode/id/net/interition/sparqlycode/ahkbp/UriHelper.java> .
+
+<http://www.interition.net/sparqlycode/id/net/interition/sparqlycode/ahkbp/ProxyPath/processContent#40>
+        a       <http://ontology.interition.net/java/ref/Method> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "processContent" ;
+        <http://ontology.interition.net/java/ref/access>
+                "Private" ;
+        <http://ontology.interition.net/java/ref/argument>
+                [ <http://www.w3.org/2000/01/rdf-schema#label>
+                          "content" ;
+                  <http://ontology.interition.net/java/ref/type>
+                          <http://www.interition.net/sparqlycode/id/java/lang/String>
+                ] ;
+        <http://ontology.interition.net/java/ref/lineNumber>
+                "40"^^<http://www.w3.org/2001/XMLSchema#int> ;
+        <http://ontology.interition.net/java/ref/returns>
+                [ <http://ontology.interition.net/java/ref/type>
+                          sparqlycode:void ] ;
+        <http://ontology.interition.net/java/ref/throws>
+                <http://www.interition.net/sparqlycode/id/net/interition/sparqlycode/ahkbp/UnexpectedContentException> .
+
+<http://www.interition.net/sparqlycode/id/net/interition/sparqlycode/ahkbp/ApacheHttpKBPublisher/createVirtualHostStatement#97>
+        a       <http://ontology.interition.net/java/ref/Method> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "createVirtualHostStatement" ;
+        <http://ontology.interition.net/java/ref/access>
+                "Private" ;
+        <http://ontology.interition.net/java/ref/argument>
+                [ <http://www.w3.org/2000/01/rdf-schema#label>
+                          "node" ;
+                  <http://ontology.interition.net/java/ref/type>
+                          <http://www.interition.net/sparqlycode/id/com/stackify/apache/ConfigNode>
+                ] ;
+        <http://ontology.interition.net/java/ref/argument>
+                [ <http://www.w3.org/2000/01/rdf-schema#label>
+                          "vhost" ;
+                  <http://ontology.interition.net/java/ref/type>
+                          <http://www.interition.net/sparqlycode/id/net/interition/sparqlycode/ahkbp/VirtualHost>
+                ] ;
+        <http://ontology.interition.net/java/ref/lineNumber>
+                "97"^^<http://www.w3.org/2001/XMLSchema#int> ;
+        <http://ontology.interition.net/java/ref/returns>
+                [ <http://ontology.interition.net/java/ref/type>
+                          sparqlycode:void ] .
+
+<http://www.interition.net/sparqlycode/id/net/interition/sparqlycode/ahkbp/DirectiveEnum/values#3>
+        a       <http://ontology.interition.net/java/ref/Method> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "values" ;
+        <http://ontology.interition.net/java/ref/access>
+                "Public" ;
+        <http://ontology.interition.net/java/ref/isStatic>
+                true ;
+        <http://ontology.interition.net/java/ref/lineNumber>
+                "3"^^<http://www.w3.org/2001/XMLSchema#int> ;
+        <http://ontology.interition.net/java/ref/returns>
+                [ <http://ontology.interition.net/java/ref/dimension>
+                          "1"^^<http://www.w3.org/2001/XMLSchema#int> ;
+                  <http://ontology.interition.net/java/ref/type>
+                          <http://www.interition.net/sparqlycode/id/net/interition/sparqlycode/ahkbp/DirectiveEnum>
+                ] .
+
+<http://www.interition.net/sparqlycode/id/net/interition/sparqlycode/ahkbp/ProxyPath/getRemoteUrl#63>
+        a       <http://ontology.interition.net/java/ref/Method> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "getRemoteUrl" ;
+        <http://ontology.interition.net/java/ref/access>
+                "Public" ;
+        <http://ontology.interition.net/java/ref/lineNumber>
+                "63"^^<http://www.w3.org/2001/XMLSchema#int> ;
+        <http://ontology.interition.net/java/ref/returns>
+                [ <http://ontology.interition.net/java/ref/type>
+                          <http://www.interition.net/sparqlycode/id/java/lang/String> ] .
+
+<http://www.interition.net/sparqlycode/id/net/interition/sparqlycode/ahkbp/VirtualHost/getRedirects#17>
+        a       <http://ontology.interition.net/java/ref/Method> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "getRedirects" ;
+        <http://ontology.interition.net/java/ref/access>
+                "Public" ;
+        <http://ontology.interition.net/java/ref/lineNumber>
+                "17"^^<http://www.w3.org/2001/XMLSchema#int> ;
+        <http://ontology.interition.net/java/ref/returns>
+                [ <http://ontology.interition.net/java/ref/type>
+                          <http://www.interition.net/sparqlycode/id/java/util/List> ;
+                  <http://ontology.interition.net/java/ref/typeParameter>
+                          [ <http://ontology.interition.net/java/ref/argument>
+                                    [ <http://www.w3.org/2000/01/rdf-schema#label>
+                                              "Redirect" ;
+                                      <http://ontology.interition.net/java/ref/argument>
+                                              <http://www.interition.net/sparqlycode/id/net/interition/sparqlycode/ahkbp/Redirect>
+                                    ] ]
+                ] .
+
+<http://www.interition.net/sparqlycode/id/net/interition/sparqlycode/ahkbp/VirtualHost>
+        a       <http://ontology.interition.net/java/ref/Class> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "VirtualHost" ;
+        <http://ontology.interition.net/java/ref/access>
+                "Public" ;
+        <http://ontology.interition.net/java/ref/constructor>
+                <http://www.interition.net/sparqlycode/id/net/interition/sparqlycode/ahkbp/VirtualHost#12> ;
+        <http://ontology.interition.net/java/ref/extends>
+                <http://www.interition.net/sparqlycode/id/java/lang/Object> ;
+        <http://ontology.interition.net/java/ref/field>
+                <http://www.interition.net/sparqlycode/id/net/interition/sparqlycode/ahkbp/VirtualHost/port#7> , <http://www.interition.net/sparqlycode/id/net/interition/sparqlycode/ahkbp/VirtualHost/proxyPaths#10> , <http://www.interition.net/sparqlycode/id/net/interition/sparqlycode/ahkbp/VirtualHost/redirects#9> , <http://www.interition.net/sparqlycode/id/net/interition/sparqlycode/ahkbp/VirtualHost/serverName#8> ;
+        <http://ontology.interition.net/java/ref/imports>
+                <http://www.interition.net/sparqlycode/id/java/lang> ;
+        <http://ontology.interition.net/java/ref/lineNumber>
+                "5"^^<http://www.w3.org/2001/XMLSchema#int> ;
+        <http://ontology.interition.net/java/ref/method>
+                <http://www.interition.net/sparqlycode/id/net/interition/sparqlycode/ahkbp/VirtualHost/setServerName#37> , <http://www.interition.net/sparqlycode/id/net/interition/sparqlycode/ahkbp/VirtualHost/getPort#41> , <http://www.interition.net/sparqlycode/id/net/interition/sparqlycode/ahkbp/VirtualHost/getProxyPaths#21> , <http://www.interition.net/sparqlycode/id/net/interition/sparqlycode/ahkbp/VirtualHost/getServerName#33> , <http://www.interition.net/sparqlycode/id/net/interition/sparqlycode/ahkbp/VirtualHost/add#29> , <http://www.interition.net/sparqlycode/id/net/interition/sparqlycode/ahkbp/VirtualHost/add#25> , <http://www.interition.net/sparqlycode/id/net/interition/sparqlycode/ahkbp/VirtualHost/getRedirects#17> ;
+        <http://ontology.interition.net/java/ref/package>
+                "net.interition.sparqlycode.ahkbp" ;
+        <http://ontology.interition.net/sparqlycode/vocabulary/file>
+                <file://www.interition.net/sparqlycode/id/net/interition/sparqlycode/ahkbp/VirtualHost.java> .
+
+<http://www.interition.net/sparqlycode/id/net/interition/sparqlycode/ahkbp/ApacheHttpKBPublisher/createProxyPassStatement#111>
+        a       <http://ontology.interition.net/java/ref/Method> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "createProxyPassStatement" ;
+        <http://ontology.interition.net/java/ref/access>
+                "Private" ;
+        <http://ontology.interition.net/java/ref/argument>
+                [ <http://www.w3.org/2000/01/rdf-schema#label>
+                          "node" ;
+                  <http://ontology.interition.net/java/ref/type>
+                          <http://www.interition.net/sparqlycode/id/com/stackify/apache/ConfigNode>
+                ] ;
+        <http://ontology.interition.net/java/ref/argument>
+                [ <http://www.w3.org/2000/01/rdf-schema#label>
+                          "vhost" ;
+                  <http://ontology.interition.net/java/ref/type>
+                          <http://www.interition.net/sparqlycode/id/net/interition/sparqlycode/ahkbp/VirtualHost>
+                ] ;
+        <http://ontology.interition.net/java/ref/lineNumber>
+                "111"^^<http://www.w3.org/2001/XMLSchema#int> ;
+        <http://ontology.interition.net/java/ref/returns>
+                [ <http://ontology.interition.net/java/ref/type>
+                          sparqlycode:void ] ;
+        <http://ontology.interition.net/java/ref/throws>
+                <http://www.interition.net/sparqlycode/id/net/interition/sparqlycode/ahkbp/UnexpectedContentException> .
+
+<http://www.interition.net/sparqlycode/id/net/interition/sparqlycode/ahkbp/ProxyPath/localUrl#16>
+        a       <http://ontology.interition.net/java/ref/Field> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "localUrl" ;
+        <http://ontology.interition.net/java/ref/access>
+                "Private" ;
+        <http://ontology.interition.net/java/ref/lineNumber>
+                "16"^^<http://www.w3.org/2001/XMLSchema#int> ;
+        <http://ontology.interition.net/java/ref/type>
+                <http://www.interition.net/sparqlycode/id/java/lang/String> .
+
+<http://www.interition.net/sparqlycode/id/net/interition/sparqlycode/ahkbp/ProxyPath/getPath#59>
+        a       <http://ontology.interition.net/java/ref/Method> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "getPath" ;
+        <http://ontology.interition.net/java/ref/access>
+                "Public" ;
+        <http://ontology.interition.net/java/ref/lineNumber>
+                "59"^^<http://www.w3.org/2001/XMLSchema#int> ;
+        <http://ontology.interition.net/java/ref/returns>
+                [ <http://ontology.interition.net/java/ref/type>
+                          <http://www.interition.net/sparqlycode/id/java/lang/String> ] .
+
+<http://www.interition.net/sparqlycode/id/net/interition/sparqlycode/ahkbp/UnexpectedContentException/serialVersionUID#8>
+        a       <http://ontology.interition.net/java/ref/Field> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "serialVersionUID" ;
+        <http://ontology.interition.net/java/ref/access>
+                "Private" ;
+        <http://ontology.interition.net/java/ref/isFinal>
+                true ;
+        <http://ontology.interition.net/java/ref/isStatic>
+                true ;
+        <http://ontology.interition.net/java/ref/lineNumber>
+                "8"^^<http://www.w3.org/2001/XMLSchema#int> ;
+        <http://ontology.interition.net/java/ref/type>
+                sparqlycode:long .
+
+<http://www.interition.net/sparqlycode/id/net/interition/sparqlycode/ahkbp/DirectiveEnum>
+        a       <http://ontology.interition.net/java/ref/Enum> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "DirectiveEnum" ;
+        <http://ontology.interition.net/java/ref/access>
+                "Public" ;
+        <http://ontology.interition.net/java/ref/constructor>
+                <http://www.interition.net/sparqlycode/id/net/interition/sparqlycode/ahkbp/DirectiveEnum#3> ;
+        <http://ontology.interition.net/java/ref/extends>
+                <http://www.interition.net/sparqlycode/id/java/lang/Enum> ;
+        <http://ontology.interition.net/java/ref/imports>
+                <http://www.interition.net/sparqlycode/id/java/lang> ;
+        <http://ontology.interition.net/java/ref/isFinal>
+                true ;
+        <http://ontology.interition.net/java/ref/isSerializable>
+                true ;
+        <http://ontology.interition.net/java/ref/lineNumber>
+                "3"^^<http://www.w3.org/2001/XMLSchema#int> ;
+        <http://ontology.interition.net/java/ref/method>
+                <http://www.interition.net/sparqlycode/id/net/interition/sparqlycode/ahkbp/DirectiveEnum/getDirective#6> , <http://www.interition.net/sparqlycode/id/net/interition/sparqlycode/ahkbp/DirectiveEnum/values#3> , <http://www.interition.net/sparqlycode/id/net/interition/sparqlycode/ahkbp/DirectiveEnum/valueOf#3> ;
+        <http://ontology.interition.net/java/ref/package>
+                "net.interition.sparqlycode.ahkbp" ;
+        <http://ontology.interition.net/sparqlycode/vocabulary/file>
+                <file://www.interition.net/sparqlycode/id/net/interition/sparqlycode/ahkbp/DirectiveEnum.java> .
+
+<http://www.interition.net/sparqlycode/id/net/interition/sparqlycode/ahkbp/UriHelper/getPort#21>
+        a       <http://ontology.interition.net/java/ref/Method> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "getPort" ;
+        <http://ontology.interition.net/java/ref/access>
+                "Public" ;
+        <http://ontology.interition.net/java/ref/argument>
+                [ <http://www.w3.org/2000/01/rdf-schema#label>
+                          "content" ;
+                  <http://ontology.interition.net/java/ref/type>
+                          <http://www.interition.net/sparqlycode/id/java/lang/String>
+                ] ;
+        <http://ontology.interition.net/java/ref/isStatic>
+                true ;
+        <http://ontology.interition.net/java/ref/lineNumber>
+                "21"^^<http://www.w3.org/2001/XMLSchema#int> ;
+        <http://ontology.interition.net/java/ref/returns>
+                [ <http://ontology.interition.net/java/ref/type>
+                          <http://www.interition.net/sparqlycode/id/java/lang/String> ] .
+
+<http://www.interition.net/sparqlycode/id/net/interition/sparqlycode/ahkbp/RDFServices/prefix#24>
+        a       <http://ontology.interition.net/java/ref/Field> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "prefix" ;
+        <http://ontology.interition.net/java/ref/access>
+                "Protected" ;
+        <http://ontology.interition.net/java/ref/lineNumber>
+                "24"^^<http://www.w3.org/2001/XMLSchema#int> ;
+        <http://ontology.interition.net/java/ref/type>
+                <http://www.interition.net/sparqlycode/id/java/lang/String> .
+
+<http://www.interition.net/sparqlycode/id/net/interition/sparqlycode/ahkbp/RDFServices#17>
+        a       <http://ontology.interition.net/java/ref/Constructor> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "RDFServices" ;
+        <http://ontology.interition.net/java/ref/access>
+                "Public" ;
+        <http://ontology.interition.net/java/ref/lineNumber>
+                "17"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://www.interition.net/sparqlycode/id/net/interition/sparqlycode/ahkbp/Redirect>
+        a       <http://ontology.interition.net/java/ref/Class> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Redirect" ;
+        <http://ontology.interition.net/java/ref/access>
+                "Public" ;
+        <http://ontology.interition.net/java/ref/constructor>
+                <http://www.interition.net/sparqlycode/id/net/interition/sparqlycode/ahkbp/Redirect#16> ;
+        <http://ontology.interition.net/java/ref/extends>
+                <http://www.interition.net/sparqlycode/id/java/lang/Object> ;
+        <http://ontology.interition.net/java/ref/field>
+                <http://www.interition.net/sparqlycode/id/net/interition/sparqlycode/ahkbp/Redirect/oldUrl#13> , <http://www.interition.net/sparqlycode/id/net/interition/sparqlycode/ahkbp/Redirect/newUrl#14> , <http://www.interition.net/sparqlycode/id/net/interition/sparqlycode/ahkbp/Redirect/status#12> ;
+        <http://ontology.interition.net/java/ref/imports>
+                <http://www.interition.net/sparqlycode/id/java/lang> ;
+        <http://ontology.interition.net/java/ref/isFinal>
+                true ;
+        <http://ontology.interition.net/java/ref/lineNumber>
+                "11"^^<http://www.w3.org/2001/XMLSchema#int> ;
+        <http://ontology.interition.net/java/ref/method>
+                <http://www.interition.net/sparqlycode/id/net/interition/sparqlycode/ahkbp/Redirect/getStatus#37> , <http://www.interition.net/sparqlycode/id/net/interition/sparqlycode/ahkbp/Redirect/getNewUrl#45> , <http://www.interition.net/sparqlycode/id/net/interition/sparqlycode/ahkbp/Redirect/getOldUrl#41> ;
+        <http://ontology.interition.net/java/ref/package>
+                "net.interition.sparqlycode.ahkbp" ;
+        <http://ontology.interition.net/sparqlycode/vocabulary/file>
+                <file://www.interition.net/sparqlycode/id/net/interition/sparqlycode/ahkbp/Redirect.java> .
+
+<http://www.interition.net/sparqlycode/id/net/interition/sparqlycode/ahkbp/RDFServices/buildPrefix#57>
+        a       <http://ontology.interition.net/java/ref/Method> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "buildPrefix" ;
+        <http://ontology.interition.net/java/ref/access>
+                "Protected" ;
+        <http://ontology.interition.net/java/ref/lineNumber>
+                "57"^^<http://www.w3.org/2001/XMLSchema#int> ;
+        <http://ontology.interition.net/java/ref/returns>
+                [ <http://ontology.interition.net/java/ref/type>
+                          sparqlycode:void ] .
+
+<http://www.interition.net/sparqlycode/id/net/interition/sparqlycode/ahkbp/ApacheHttpKBPublisher>
+        a       <http://ontology.interition.net/java/ref/Class> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "ApacheHttpKBPublisher" ;
+        <http://ontology.interition.net/java/ref/access>
+                "Public" ;
+        <http://ontology.interition.net/java/ref/constructor>
+                <http://www.interition.net/sparqlycode/id/net/interition/sparqlycode/ahkbp/ApacheHttpKBPublisher#18> ;
+        <http://ontology.interition.net/java/ref/extends>
+                <http://www.interition.net/sparqlycode/id/net/interition/sparqlycode/ahkbp/RDFServices> ;
+        <http://ontology.interition.net/java/ref/field>
+                <http://www.interition.net/sparqlycode/id/net/interition/sparqlycode/ahkbp/ApacheHttpKBPublisher/logger#20> ;
+        <http://ontology.interition.net/java/ref/imports>
+                <http://www.interition.net/sparqlycode/id/java/lang> ;
+        <http://ontology.interition.net/java/ref/lineNumber>
+                "18"^^<http://www.w3.org/2001/XMLSchema#int> ;
+        <http://ontology.interition.net/java/ref/method>
+                <http://www.interition.net/sparqlycode/id/net/interition/sparqlycode/ahkbp/ApacheHttpKBPublisher/createProxyPassStatement#111> , <http://www.interition.net/sparqlycode/id/net/interition/sparqlycode/ahkbp/ApacheHttpKBPublisher/constructVirtualHost#71> , <http://www.interition.net/sparqlycode/id/net/interition/sparqlycode/ahkbp/ApacheHttpKBPublisher/publishHttpKb#29> , <http://www.interition.net/sparqlycode/id/net/interition/sparqlycode/ahkbp/ApacheHttpKBPublisher/createVirtualHostStatement#97> , <http://www.interition.net/sparqlycode/id/net/interition/sparqlycode/ahkbp/ApacheHttpKBPublisher/main#22> ;
+        <http://ontology.interition.net/java/ref/package>
+                "net.interition.sparqlycode.ahkbp" ;
+        <http://ontology.interition.net/sparqlycode/vocabulary/file>
+                <file://www.interition.net/sparqlycode/id/net/interition/sparqlycode/ahkbp/ApacheHttpKBPublisher.java> .
+
+<http://www.interition.net/sparqlycode/id/net/interition/sparqlycode/ahkbp/Redirect/newUrl#14>
+        a       <http://ontology.interition.net/java/ref/Field> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "newUrl" ;
+        <http://ontology.interition.net/java/ref/access>
+                "Private" ;
+        <http://ontology.interition.net/java/ref/lineNumber>
+                "14"^^<http://www.w3.org/2001/XMLSchema#int> ;
+        <http://ontology.interition.net/java/ref/type>
+                <http://www.interition.net/sparqlycode/id/java/lang/String> .
+
+<http://www.interition.net/sparqlycode/id/net/interition/sparqlycode/ahkbp/ApacheHttpKBPublisher#18>
+        a       <http://ontology.interition.net/java/ref/Constructor> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "ApacheHttpKBPublisher" ;
+        <http://ontology.interition.net/java/ref/access>
+                "Public" ;
+        <http://ontology.interition.net/java/ref/lineNumber>
+                "18"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://www.interition.net/sparqlycode/id/net/interition/sparqlycode/ahkbp/UriHelper#3>
+        a       <http://ontology.interition.net/java/ref/Constructor> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "UriHelper" ;
+        <http://ontology.interition.net/java/ref/access>
+                "Public" ;
+        <http://ontology.interition.net/java/ref/lineNumber>
+                "3"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://www.interition.net/sparqlycode/id/net/interition/sparqlycode/ahkbp/VirtualHost/add#25>
+        a       <http://ontology.interition.net/java/ref/Method> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "add" ;
+        <http://ontology.interition.net/java/ref/access>
+                "Public" ;
+        <http://ontology.interition.net/java/ref/argument>
+                [ <http://www.w3.org/2000/01/rdf-schema#label>
+                          "redirect" ;
+                  <http://ontology.interition.net/java/ref/type>
+                          <http://www.interition.net/sparqlycode/id/net/interition/sparqlycode/ahkbp/Redirect>
+                ] ;
+        <http://ontology.interition.net/java/ref/lineNumber>
+                "25"^^<http://www.w3.org/2001/XMLSchema#int> ;
+        <http://ontology.interition.net/java/ref/returns>
+                [ <http://ontology.interition.net/java/ref/type>
+                          sparqlycode:void ] .
+
+<http://www.interition.net/sparqlycode/id/net/interition/sparqlycode/ahkbp/Redirect/status#12>
+        a       <http://ontology.interition.net/java/ref/Field> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "status" ;
+        <http://ontology.interition.net/java/ref/access>
+                "Private" ;
+        <http://ontology.interition.net/java/ref/lineNumber>
+                "12"^^<http://www.w3.org/2001/XMLSchema#int> ;
+        <http://ontology.interition.net/java/ref/type>
+                <http://www.interition.net/sparqlycode/id/java/lang/String> .
+
+<http://www.interition.net/sparqlycode/id/net/interition/sparqlycode/ahkbp/VirtualHost/proxyPaths#10>
+        a       <http://ontology.interition.net/java/ref/Field> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "proxyPaths" ;
+        <http://ontology.interition.net/java/ref/access>
+                "Private" ;
+        <http://ontology.interition.net/java/ref/lineNumber>
+                "10"^^<http://www.w3.org/2001/XMLSchema#int> ;
+        <http://ontology.interition.net/java/ref/type>
+                <http://www.interition.net/sparqlycode/id/java/util/List> ;
+        <http://ontology.interition.net/java/ref/typeParameter>
+                [ <http://ontology.interition.net/java/ref/argument>
+                          [ <http://www.w3.org/2000/01/rdf-schema#label>
+                                    "ProxyPath" ;
+                            <http://ontology.interition.net/java/ref/argument>
+                                    <http://www.interition.net/sparqlycode/id/net/interition/sparqlycode/ahkbp/ProxyPath>
+                          ] ] .
+
+<http://www.interition.net/sparqlycode/id/net/interition/sparqlycode/ahkbp/VirtualHost/getProxyPaths#21>
+        a       <http://ontology.interition.net/java/ref/Method> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "getProxyPaths" ;
+        <http://ontology.interition.net/java/ref/access>
+                "Public" ;
+        <http://ontology.interition.net/java/ref/lineNumber>
+                "21"^^<http://www.w3.org/2001/XMLSchema#int> ;
+        <http://ontology.interition.net/java/ref/returns>
+                [ <http://ontology.interition.net/java/ref/type>
+                          <http://www.interition.net/sparqlycode/id/java/util/List> ;
+                  <http://ontology.interition.net/java/ref/typeParameter>
+                          [ <http://ontology.interition.net/java/ref/argument>
+                                    [ <http://www.w3.org/2000/01/rdf-schema#label>
+                                              "ProxyPath" ;
+                                      <http://ontology.interition.net/java/ref/argument>
+                                              <http://www.interition.net/sparqlycode/id/net/interition/sparqlycode/ahkbp/ProxyPath>
+                                    ] ]
+                ] .
+
+<http://www.interition.net/sparqlycode/id/net/interition/sparqlycode/ahkbp/ProxyPath/getLocalUrl#55>
+        a       <http://ontology.interition.net/java/ref/Method> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "getLocalUrl" ;
+        <http://ontology.interition.net/java/ref/access>
+                "Public" ;
+        <http://ontology.interition.net/java/ref/lineNumber>
+                "55"^^<http://www.w3.org/2001/XMLSchema#int> ;
+        <http://ontology.interition.net/java/ref/returns>
+                [ <http://ontology.interition.net/java/ref/type>
+                          <http://www.interition.net/sparqlycode/id/java/lang/String> ] .
+
+<http://www.interition.net/sparqlycode/id/net/interition/sparqlycode/ahkbp/RDFServices/writeRdf#33>
+        a       <http://ontology.interition.net/java/ref/Method> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "writeRdf" ;
+        <http://ontology.interition.net/java/ref/access>
+                "Protected" ;
+        <http://ontology.interition.net/java/ref/argument>
+                [ <http://www.w3.org/2000/01/rdf-schema#label>
+                          "out" ;
+                  <http://ontology.interition.net/java/ref/type>
+                          <http://www.interition.net/sparqlycode/id/java/io/File>
+                ] ;
+        <http://ontology.interition.net/java/ref/argument>
+                [ <http://www.w3.org/2000/01/rdf-schema#label>
+                          "model" ;
+                  <http://ontology.interition.net/java/ref/type>
+                          <http://www.interition.net/sparqlycode/id/com/hp/hpl/jena/rdf/model/Model>
+                ] ;
+        <http://ontology.interition.net/java/ref/lineNumber>
+                "33"^^<http://www.w3.org/2001/XMLSchema#int> ;
+        <http://ontology.interition.net/java/ref/returns>
+                [ <http://ontology.interition.net/java/ref/type>
+                          sparqlycode:void ] ;
+        <http://ontology.interition.net/java/ref/throws>
+                <http://www.interition.net/sparqlycode/id/java/lang/Exception> .
+
+<http://www.interition.net/sparqlycode/id/net/interition/sparqlycode/ahkbp/VirtualHost/serverName#8>
+        a       <http://ontology.interition.net/java/ref/Field> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "serverName" ;
+        <http://ontology.interition.net/java/ref/access>
+                "Private" ;
+        <http://ontology.interition.net/java/ref/lineNumber>
+                "8"^^<http://www.w3.org/2001/XMLSchema#int> ;
+        <http://ontology.interition.net/java/ref/type>
+                <http://www.interition.net/sparqlycode/id/java/lang/String> .
+
+<http://www.interition.net/sparqlycode/id/net/interition/sparqlycode/ahkbp/Redirect/getStatus#37>
+        a       <http://ontology.interition.net/java/ref/Method> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "getStatus" ;
+        <http://ontology.interition.net/java/ref/access>
+                "Public" ;
+        <http://ontology.interition.net/java/ref/lineNumber>
+                "37"^^<http://www.w3.org/2001/XMLSchema#int> ;
+        <http://ontology.interition.net/java/ref/returns>
+                [ <http://ontology.interition.net/java/ref/type>
+                          <http://www.interition.net/sparqlycode/id/java/lang/String> ] .
+
+<http://www.interition.net/sparqlycode/id/net/interition/sparqlycode/ahkbp/RDFServices/model#22>
+        a       <http://ontology.interition.net/java/ref/Field> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "model" ;
+        <http://ontology.interition.net/java/ref/access>
+                "Protected" ;
+        <http://ontology.interition.net/java/ref/lineNumber>
+                "22"^^<http://www.w3.org/2001/XMLSchema#int> ;
+        <http://ontology.interition.net/java/ref/type>
+                <http://www.interition.net/sparqlycode/id/com/hp/hpl/jena/rdf/model/Model> .
+
+<http://www.interition.net/sparqlycode/id/net/interition/sparqlycode/ahkbp/VirtualHost/getPort#41>
+        a       <http://ontology.interition.net/java/ref/Method> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "getPort" ;
+        <http://ontology.interition.net/java/ref/access>
+                "Public" ;
+        <http://ontology.interition.net/java/ref/lineNumber>
+                "41"^^<http://www.w3.org/2001/XMLSchema#int> ;
+        <http://ontology.interition.net/java/ref/returns>
+                [ <http://ontology.interition.net/java/ref/type>
+                          <http://www.interition.net/sparqlycode/id/java/lang/String> ] .
+
+<http://www.interition.net/sparqlycode/id/net/interition/sparqlycode/ahkbp/UnexpectedContentException>
+        a       <http://ontology.interition.net/java/ref/Class> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "UnexpectedContentException" ;
+        <http://ontology.interition.net/java/ref/access>
+                "Public" ;
+        <http://ontology.interition.net/java/ref/constructor>
+                <http://www.interition.net/sparqlycode/id/net/interition/sparqlycode/ahkbp/UnexpectedContentException#10> ;
+        <http://ontology.interition.net/java/ref/extends>
+                <http://www.interition.net/sparqlycode/id/java/lang/Exception> ;
+        <http://ontology.interition.net/java/ref/field>
+                <http://www.interition.net/sparqlycode/id/net/interition/sparqlycode/ahkbp/UnexpectedContentException/serialVersionUID#8> ;
+        <http://ontology.interition.net/java/ref/imports>
+                <http://www.interition.net/sparqlycode/id/java/lang> ;
+        <http://ontology.interition.net/java/ref/isSerializable>
+                true ;
+        <http://ontology.interition.net/java/ref/lineNumber>
+                "3"^^<http://www.w3.org/2001/XMLSchema#int> ;
+        <http://ontology.interition.net/java/ref/package>
+                "net.interition.sparqlycode.ahkbp" ;
+        <http://ontology.interition.net/sparqlycode/vocabulary/file>
+                <file://www.interition.net/sparqlycode/id/net/interition/sparqlycode/ahkbp/UnexpectedContentException.java> .
+
+<http://www.interition.net/sparqlycode/id/net/interition/sparqlycode/ahkbp/VirtualHost/getServerName#33>
+        a       <http://ontology.interition.net/java/ref/Method> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "getServerName" ;
+        <http://ontology.interition.net/java/ref/access>
+                "Public" ;
+        <http://ontology.interition.net/java/ref/lineNumber>
+                "33"^^<http://www.w3.org/2001/XMLSchema#int> ;
+        <http://ontology.interition.net/java/ref/returns>
+                [ <http://ontology.interition.net/java/ref/type>
+                          <http://www.interition.net/sparqlycode/id/java/lang/String> ] .
+
+<http://www.interition.net/sparqlycode/id/net/interition/sparqlycode/ahkbp/ProxyPath/remoteUrl#17>
+        a       <http://ontology.interition.net/java/ref/Field> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "remoteUrl" ;
+        <http://ontology.interition.net/java/ref/access>
+                "Private" ;
+        <http://ontology.interition.net/java/ref/lineNumber>
+                "17"^^<http://www.w3.org/2001/XMLSchema#int> ;
+        <http://ontology.interition.net/java/ref/type>
+                <http://www.interition.net/sparqlycode/id/java/lang/String> .
+
+<http://www.interition.net/sparqlycode/id/net/interition/sparqlycode/ahkbp/ApacheHttpKBPublisher/logger#20>
+        a       <http://ontology.interition.net/java/ref/Field> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "logger" ;
+        <http://ontology.interition.net/java/ref/access>
+                "Private" ;
+        <http://ontology.interition.net/java/ref/isFinal>
+                true ;
+        <http://ontology.interition.net/java/ref/lineNumber>
+                "20"^^<http://www.w3.org/2001/XMLSchema#int> ;
+        <http://ontology.interition.net/java/ref/type>
+                <http://www.interition.net/sparqlycode/id/org/apache/commons/logging/Log> .

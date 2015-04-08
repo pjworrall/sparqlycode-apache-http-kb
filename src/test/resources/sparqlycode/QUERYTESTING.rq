@@ -1,0 +1,11 @@
+prefix id:    <http://www.interition.net/apache/http/id/>
+prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#>
+prefix web:   <http://ontology.interition.net/apache/http/ref/>
+
+
+SELECT ?ServerName ?Proxy ?Proxied  WHERE {
+
+			?vh a web:VirtualHost ; web:proxyPass ?_p ; rdfs:label ?ServerName .
+			
+			?_p web:proxy ?Proxy ; web:proxied ?Proxied .
+}  

@@ -1,0 +1,50 @@
+@prefix : <http://ontology.interition.net/apache/http/ref/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+
+<http://ontology.interition.net/apache/http/ref/>
+    a owl:Ontology ;
+    rdfs:comment """This Ontology is published by the Paul Worrall of Interition Limited (http://www.interition.net). April 2015 .
+
+This is an Ontology representing concepts in the Apache Http Web Server configuration.
+
+If you wish to make comments regarding this Ontology, please send them to info@interition.net. All feedback is welcome."""@en ;
+    rdfs:isDefinedBy <http://ontology.interition.net/apache/http/ref/> ;
+    rdfs:label "Sparqlycode Apache Http KB Domain Specific Ontology"@en .
+
+
+:VirtualHost
+	 a rdfs:Class ;
+	 rdfs:label "a Virtual Host" .
+
+:External
+	a rdfs:Class ;
+	 rdfs:label "an external facing resource" .
+	 
+:Internal
+	a rdfs:Class ;
+	 rdfs:label "an internal facing resource" .
+
+:serverName
+    a rdf:Property ;
+    rdfs:label "the domain name of the server" .
+    
+:proxyPass
+    a rdf:Property ;
+    rdfs:label "a proxy pass declaration" .
+    
+:proxy
+    a rdf:Property ;
+    rdfs:label "the external uri" .
+    
+:proxied
+    a rdf:Property ;
+    rdfs:label "the internal uri" .
+    
+    
+    
+
+    
